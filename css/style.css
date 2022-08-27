@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color: #E25822;
+    --text-color: #000000;
+    --bg-color: #ECECEB;
+    --h2-font: 2.25rem;
+    --p-font:0.9rem;
+    --big-font: 3rem;
+}
+body{
+    background-color: var(--bg-color);
+}
+
+/* home-content */
+hr.line-1{
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 941px;
+    top: 80px;
+    
+    border: 2px solid #E25822;
+    transform: rotate(-90deg);
+}
+hr.line-2{
+    position: absolute;
+    width: 56px;
+    height: 0px;
+    left: 961px;
+    top: 56px;
+    
+    border: 2px solid #000000;
+    transform: rotate(-90deg);   
+}
+.home-pg-rectangle{
+    position: absolute;
+    width: 1884.73px;
+    height: 782.14px;
+    left: 188.83px;
+    top: -195.21px;
+    
+    background: #E25822;
+    transform: rotate(60deg);
+}
+
+
+.home-content-img{
+    position: absolute;
+    width: 1961px;
+    height: 1395px;
+}
+
+.main-heading{
+    position: absolute;
+    width: 241px;
+    height: 49px;
+    left: 1533px;
+    top: 225px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #000000; 
+}
+.backround-text{
+    position: absolute;
+    width: 331px;
+    height: 676px;
+    left: 815px;
+    top: 359px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 169px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    background-color: var(--bg-color);
+    
+    color: rgba(153, 153, 153, 0.1);
+}
+.main-heading-dot{
+    color: #E25822;
+}
+.main-heading-sub{
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 1638px;
+    top: 288px;
+    
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+    
+    color: #999999;
+}
+.main-text{
+    position: absolute;
+    width: 1090px;
+    height: 270px;
+    left: 684px;
+    top: 349px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 90px;
+    /* or 129% */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    text-transform: lowercase;
+    
+    color: #000000;
+}
+.main-text-highlight
+{
+    color: #E25822;
+}
+.main-text-light{
+    color: #999999;
+    font-style: italic;
+}
+
+
+
