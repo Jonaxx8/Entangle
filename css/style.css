@@ -15,9 +15,13 @@
     --p-font:0.9rem;
     --big-font: 3rem;
 }
+
 body{
     background-color: var(--bg-color);
+    
+    
 }
+
 
 /* home-content */
 hr.line-1{
@@ -68,7 +72,7 @@ hr.line-2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 49px;
     /* identical to box height */
     
@@ -86,8 +90,8 @@ hr.line-2{
     
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 200px;
+    font-weight: bolder;
+    font-size: 12.5rem;
     line-height: 169px;
     letter-spacing: 0.015em;
     text-transform: uppercase;
@@ -95,6 +99,7 @@ hr.line-2{
     
     color: rgba(153, 153, 153, 0.1);
 }
+
 .main-heading-dot{
     color: #E25822;
 }
@@ -108,7 +113,7 @@ hr.line-2{
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.563rem;
     line-height: 30px;
     text-align: right;
     
@@ -124,7 +129,7 @@ hr.line-2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 4.375rem;
     line-height: 90px;
     /* or 129% */
     
