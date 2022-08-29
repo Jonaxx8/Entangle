@@ -158,11 +158,11 @@ body{
         height: 37px;
         /* text-align: center; */
         margin-left: 25%;
-        top: 2%;
+        top: 6%;
         
     }
     .main-heading-sub{
-        top: 7%;
+        top: 11%;
         /* text-align: center; */
     }
     .backround-text{
@@ -173,7 +173,7 @@ body{
         width: 215px;
         height: 378px;
         /* left: 42%; */
-        top: 40%;
+        top: 47%;
         text-align: center;
         margin-left: 25%;
         font-family: 'Montserrat';
@@ -187,11 +187,12 @@ body{
         color: #000000;   
     }
     .sub-text{
-        margin-right: 24%;
-        margin-top: -18%;
+        position: absolute;
+        margin-left: 32%;
+        margin-top: 10%;
     }
     .home{
-        text-align: center;
+        text-align: center !important;
     }
      
 }
