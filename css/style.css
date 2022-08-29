@@ -23,8 +23,7 @@ body{
 /* home-content */
 .home{
     background-image: url("../assets/Home.png");
-    width: 100%;
-    height: 1000px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -40,14 +39,14 @@ body{
 }
 
 .main-heading{
-    position: absolute;
+    position: static;
     width: 241px;
     height: 49px;
     /* left: 1533px;
     top: 225px; */
     
-    margin-left: 30%;
-    margin-top: 8%;
+    /* margin-left: 60%;
+    margin-top: 16%; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -60,12 +59,13 @@ body{
     color: #000000; 
 }
  .backround-text{
-    position: absolute;
+    position: static;
     width: 331px;
     height: 676px;
     left: 815px;
      /* top: 359px; */
     margin-top: 10%;
+    margin-left: -6%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bolder;
@@ -73,8 +73,8 @@ body{
     line-height: 169px;
     letter-spacing: 0.015em;
     text-transform: uppercase;
-    background-color: var(--bg-color);
     
+    text-align: center;
     color: rgba(153, 153, 153, 0.1);
 } 
 
@@ -82,11 +82,9 @@ body{
     color: #E25822;
 }
 .main-heading-sub{
-    position: absolute;
+    position: static;
     width: 136px;
     height: 30px;
-    margin-left: 35%;
-    margin-top: 11%;
     
     font-family: 'Montserrat';
     font-style: italic;
@@ -98,13 +96,9 @@ body{
     color: #999999;
 }
 .main-text{
-    position: absolute;
+    position: static;
     width: 1090px;
     height: 270px;
-    /* left: 684px;
-    top: 349px; */
-    /* margin-top: -25%; */
-    margin: 18% 0% 0% -14%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -117,6 +111,7 @@ body{
     
     color: #000000;
 }
+
 .main-text-highlight
 {
     color: #E25822;
@@ -126,18 +121,30 @@ body{
     font-style: italic;
 }
 .sub-text{
+    position: static;
     height: 23px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 23px;
-    margin: 66% 12% 0% -14%;
-    
     text-align: right;
-    
     color: #000000;
+}
+.heading{
+    position: static;
+    margin-left: 60%;
+    margin-top: 16%;
+}
+.home-text{
+    position: static;
+    margin-top: 8%;
+    margin-left: -30%;
+}
+.home-text-content{
+    position: static;
+    margin-top: 2%;
+    margin-left: -15%;
 }
 
 @media (max-width: 768px){
@@ -196,6 +203,11 @@ body{
     }
      
 }
+/* @media screen and (max-width: 1900px) and (min-width: 1600px){
+    #home{
+        transform: scale(2);
+    }
+} */
 
 
 
