@@ -23,7 +23,9 @@ body{
 /* home-content */
 .home{
     background-image: url("../assets/Home.png");
-    background-size: 100% 100%;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -58,7 +60,27 @@ body{
     
     color: #000000; 
 }
- .backround-text{
+
+.main-heading-dot{
+    color: #E25822;
+}
+.main-heading-sub{
+    position: static;
+    width: 136px;
+    height: 30px;
+    margin-left: 33%;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.563rem;
+    line-height: 30px;
+    text-align: right;
+    
+    color: #999999;
+}
+
+
+.backround-text{
     position: static;
     width: 331px;
     height: 676px;
@@ -78,23 +100,7 @@ body{
     color: rgba(153, 153, 153, 0.1);
 } 
 
-.main-heading-dot{
-    color: #E25822;
-}
-.main-heading-sub{
-    position: static;
-    width: 136px;
-    height: 30px;
-    
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 1.563rem;
-    line-height: 30px;
-    text-align: right;
-    
-    color: #999999;
-}
+
 .main-text{
     position: static;
     width: 1090px;
@@ -130,16 +136,18 @@ body{
     line-height: 23px;
     text-align: right;
     color: #000000;
+    word-break: initial;
 }
+
 .heading{
     position: static;
-    margin-left: 60%;
+    margin-left: 70%;
     margin-top: 13%;
 }
 .home-text{
     position: static;
     margin-top: 8%;
-    margin-left: -30%;
+    margin-left: -20%;
 }
 .home-text-content{
     position: static;
@@ -149,7 +157,7 @@ body{
 .Register-button{
     position: static;
     margin-top: 10%;
-    margin-left: 65%;
+    margin-left: 77%;
 }
 .look-text{
     /* margin-left: -15%; */
@@ -171,7 +179,7 @@ body{
 }
 .nav-item{
     display: inline-block;
-    margin-left: 7%;
+    margin-left: 11%;
     margin-top: 10%;
 }
 .nav-link{
@@ -259,12 +267,34 @@ body{
         margin-left: 32%;
         margin-top: 10%;
     }
+    .main-text .sub-text{
+        margin-top: -15%;
+
+    }
     .home{
         text-align: center !important;
     }
      
 }
 
+/* About us CSS */
+.about{
+    background-image: url("../assets/About\ Us.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
 
+.soc-link-abt{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: var(--main-color);
+    text-decoration: none;
+    /* margin-right: 40px; */
+}
 
 
