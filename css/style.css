@@ -309,7 +309,7 @@ body{
 /* need lightheads animation for this */
 .team-nav-link{
     text-decoration: none;
-    color: black;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 22.5px;
     line-height: 27px;
@@ -463,4 +463,11 @@ br{
     opacity: 1;
 }
 
-
+/* Team page CSS */
+.team{
+    background-image: url("../assets/Team.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
