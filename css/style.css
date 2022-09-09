@@ -23,7 +23,7 @@ body{
 
 /* home-content */
 .home{
-    background-image: url("../assets/Home.png");
+    background-image: url("../assets/Home.svg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -34,7 +34,7 @@ body{
     position: absolute;    
 }
 .desktop{
-    width: 75%;
+    width: 78%;
     height: auto;
 }
 .mobile{
@@ -42,23 +42,13 @@ body{
 }
 
 .main-heading{
-    /* position: static;
-    width: 241px;
-    height: 49px; */
-    /* left: 1533px;
-    top: 225px; */
-    
-    /* margin-left: 60%;
-    margin-top: 16%; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 49px;
-    
     text-align: right;
     letter-spacing: 0.015em;
-    
     color: #000000; 
 }
 
@@ -203,7 +193,7 @@ body{
 }
 
 .soc-list{
-    margin-top: -92%;
+    margin-top: -115%;
     margin-left: -90%;
     transform: rotate(-90deg);
 }
@@ -611,6 +601,7 @@ body{
     margin-top: 25%;
 }
 .contact-us-watermark{
+    position: static;
     font-style: normal;
     font-weight: 700;
     font-size: 150px;
