@@ -494,11 +494,11 @@ body{
     width: 89%;
     height: auto;
     margin-left: 5%;
-    margin-top: -15%;
+    margin-top: -20%;
 }
 .products-heading{
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 16.5%;
 }
 .product-nav-item{
     display: inline-block;
@@ -524,9 +524,34 @@ body{
     transform: scale(1.2);
     transition: .4s;
 }
-.prodcut-nav{
-    margin-left: 5%;
+.product-nav{
+    margin-left: 15%;
+    margin-top: -10%;
 }
+.products-social-nav{
+    margin-top: -10%;
+}
+.products-1{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 600px;
+    height: 255px;
+}
+
+.products-2{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 600px;
+    height: 250px;
+}
+.products-3{
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 600px;
+    height: 250px;
+}
+
+
 
 
 /* contact-us-section */
