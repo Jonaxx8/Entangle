@@ -490,7 +490,7 @@ body{
     
 }
 .products-img{
-    width: 89%;
+    width: 91%;
     height: auto;
     margin-left: 5%;
     margin-top: -20%;
@@ -532,20 +532,20 @@ body{
 }
 .products-1{
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 26%;
     width: 600px;
     height: 255px;
 }
 
 .products-2{
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 26%;
     width: 600px;
     height: 250px;
 }
 .products-3{
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 26%;
     width: 600px;
     height: 250px;
 }
@@ -838,6 +838,34 @@ body{
         margin-top: 42%;
         margin-left: -28%;
     }
+
+    .products-img{
+        width: 91%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -24%;
+    }
+
+    .products-1{
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 455px;
+        height: 190px;
+    }
+    
+    .products-2{
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 455px;
+        height: 190px;
+    }
+    .products-3{
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 455px;
+        height: 190px;
+    }
+    
 }
 /* Scroll Animation */
 .reveal{
