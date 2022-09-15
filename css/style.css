@@ -549,9 +549,29 @@ body{
     width: 600px;
     height: 250px;
 }
-
-
-
+.products-1:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+.products-2:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+.products-3:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+.products-watermark{
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--watermark-font);
+    line-height: 145px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: rgba(153, 153, 153, 0.1);
+    margin-left: 90%;
+    margin-top: -70%;
+}
 
 /* contact-us-section */
 .contact-pg{
@@ -796,7 +816,7 @@ body{
     .about-text-highlight{
         font-size: 2.75rem;
         line-height: 50px;
-    letter-spacing: 0.015em;
+        letter-spacing: 0.015em;
     }
     .about-text-content-main-text{
         margin-top: 2%;
@@ -864,6 +884,11 @@ body{
         margin-left: 20%;
         width: 455px;
         height: 190px;
+    }
+    .products-watermark{
+        line-height: 120px;
+        letter-spacing: 0.015em;
+        margin-top: -75%;
     }
     
 }
