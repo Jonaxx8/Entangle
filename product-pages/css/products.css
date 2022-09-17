@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color: #E25822;
+    --text-color: #000000;
+    --heading-font: 2.5rem;
+    --bg-color: #ECECEB;
+    --h2-font: 2.25rem;
+    --main-text-font: 3.25rem;
+    --sub-heading-font: 1.4rem;
+    --watermark-font: 9.375rem;
+    --nav-font: 1.3rem;
+    --soc-font:0.98rem;
+}
+
+.NIK-V{
+    background-image: url("../../assets/Product\ Overview.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
