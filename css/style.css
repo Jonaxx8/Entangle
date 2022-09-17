@@ -724,7 +724,7 @@ body{
 }
 
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .desktop{
         display: none;
     }
@@ -740,14 +740,12 @@ body{
         position: absolute;
         width: 182px;
         height: 37px;
-        /* text-align: center; */
         margin-left: 25%;
         top: 6%;
         
     }
     .main-heading-sub{
         top: 11%;
-        /* text-align: center; */
     }
     .backround-text{
         display: none;
@@ -756,7 +754,6 @@ body{
         position: absolute;
         width: 215px;
         height: 378px;
-        /* left: 42%; */
         top: 47%;
         text-align: center;
         margin-left: 25%;
@@ -766,11 +763,11 @@ body{
         font-size: 1.875rem;
         line-height: 54px;
         /* or 180% */
-        letter-spacing: 0.015em;
+        /* letter-spacing: 0.015em;
         text-transform: lowercase;
         color: #000000;   
-    }
-    .sub-text{
+    } */
+    /* .sub-text{
         position: absolute;
         margin-left: 32%;
         margin-top: 10%;
@@ -781,9 +778,9 @@ body{
     }
     .home{
         text-align: center !important;
-    }
+    } */
      
-}
+/* } */ 
 
 @media (max-width: 1536px) {
     :root{

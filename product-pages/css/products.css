@@ -10,16 +10,12 @@
 :root{
     --main-color: #E25822;
     --text-color: #000000;
-    --heading-font: 2.5rem;
+    --heading-font: 4rem;
     --bg-color: #ECECEB;
-    --h2-font: 2.25rem;
     --main-text-font: 3.25rem;
-    --sub-heading-font: 1.4rem;
-    --watermark-font: 9.375rem;
-    --nav-font: 1.3rem;
-    --soc-font:0.98rem;
+    --sub-font: 1.4rem;
+    --nav-font: 1.2rem;
 }
-
 .NIK-V{
     background-image: url("../../assets/Product\ Overview.png");
     background-size: cover;
@@ -37,7 +33,7 @@
     text-decoration: none;
     color: #000000;
     font-weight: 500;
-    font-size: 37.5px;
+    font-size: 2rem;
     line-height: 46px;
     display: inline-block;
     letter-spacing: 0.015em;
@@ -50,15 +46,12 @@
     width: fit-content;
     margin-left: -2%;
 }
-
-
 .products-description{
     margin-top: -1%;
 }
 .products-heading{
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-size: 5rem;
+    font-size: var(--heading-font);
     line-height: 110px;
     font-weight: 900;
     color: #000000;
@@ -74,14 +67,14 @@
     margin-top: 12%;
     font-weight: 500;
     font-weight: 500;
-    font-size: 30px;
+    font-size: var(--sub-font);
     line-height: 37px;
     letter-spacing: 0.02em;
     color: #000000;
 }
 .price{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 1.8rem;
     line-height: 55px;
     letter-spacing: 0.02em;
     color: #000000;
@@ -94,16 +87,14 @@
     letter-spacing: 0.02em;
     color: #000000;
 }
-
 .product-breif{
     font-weight: 400;
-    font-size: 25.5px;
+    font-size: var(--sub-font);
     line-height: 130.4%;
     letter-spacing: 0.02em;
     color: #000000;
     margin-top: 3%;
 }
-
 .product-img{
     margin-left: 20%;
     width: fit-content;
@@ -112,45 +103,60 @@
     width: 29%;
     height: 45%;
     margin-right: 4%;
-
 }
-
 .contact-scroll-img{
-    width: 95%;
-
-
+    width: 80%;
 }
-
 .scroll-top-contact{
     margin-top: 9%;
+    text-align: center;
 }
-
 .contact-scroll-img:hover{
     transform: scale(1.2);
     transition: .4s;
 }
-
 .navv{
     margin-top: 5%;
-    /* margin-left: 16%; */
     text-align: right;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 .nav-item{
     display: inline-block;
     margin-left: 3%;
 }
-
 .nav-link{
-
     font-style: normal;
     font-weight: 600;
     color: #000000;
     font-size: var(--nav-font);
 }
-
 .nav-link:hover{
     color: var(--main-color);
     transform: scale(1.2);
     transition: .4s;
+}
+@media (max-width: 1536px) {
+    :root{
+        --heading-font: 3rem;
+        --h2-font: 2.25rem;
+        --main-text-font: 2.75rem;
+        --sub-font: 1.2rem;
+        --watermark-font: 7.375rem;
+        --nav-font: 1.0rem;
+    }
+    .p_hand_img{
+        width: 80%;
+    }
+    .go_back_link{
+        font-size: 1.5rem;
+    }
+    .back_logo{
+        width: 20%;
+    }
+    .main{
+        margin-top: -2.5%;
+    }
+    .product-rating{
+        margin-top: -5%;
+    }
 }
