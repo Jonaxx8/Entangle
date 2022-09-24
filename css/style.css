@@ -148,6 +148,7 @@ body{
 .btnn:hover{
     transform: scale(1.2) translateY(10px);
     transition: .4s;
+    background-color: var(--bg-color);
 }
 .navv{
     text-align: right;
@@ -239,10 +240,9 @@ body{
 }
 
 .about-us-desktop-img{
-    width: 68%;
+    width: 66%;
     height: auto;
     float: right;
-    margin-right: -5%;
 }
 .about-text{
     margin-top: 15%;
@@ -290,6 +290,9 @@ body{
 }
 .team-link{
     margin-top: 12%;
+}
+.arrow-img{
+    width: 3%;
 }
 /* need lightheads animation for this */
 .team-nav-link{
@@ -490,9 +493,9 @@ body{
     
 }
 .products-img{
-    width: 91%;
+    width: 68%;
     height: auto;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: -20%;
 }
 .products-heading{
@@ -533,21 +536,21 @@ body{
 .products-1{
     margin-top: 5%;
     margin-left: 26%;
-    width: 600px;
-    height: 255px;
+    width: 550px;
+    height: 230px;
 }
 
 .products-2{
     margin-top: 5%;
     margin-left: 26%;
-    width: 600px;
-    height: 250px;
+    width: 550px;
+    height: 230px;
 }
 .products-3{
     margin-top: 2%;
     margin-left: 26%;
-    width: 600px;
-    height: 250px;
+    width: 550px;
+    height: 230px;
 }
 .products-1:hover{
     transform: scale(1.2);
@@ -573,7 +576,9 @@ body{
     margin-top: -70%;
 }
 
-
+.products-card{
+    margin-top: 2%;
+}
 
 /* contact-us-section */
 .contact-pg{
@@ -704,8 +709,9 @@ body{
     margin-top: -85%;
 }
 .contact-us-desktop-img{
-    width: 96%;
-    height: fit-content;
+    width: 54%;
+    height: auto;
+    margin-left: 45%;
 }
 .scroll-top-contact{
     /* margin-top: -50%;
@@ -861,9 +867,9 @@ body{
     }
 
     .products-img{
-        width: 91%;
+        width: 70%;
         height: auto;
-        margin-left: 5%;
+        margin-left: 4%;
         margin-top: -24%;
     }
 
